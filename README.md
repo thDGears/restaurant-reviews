@@ -28,7 +28,7 @@ After you clone/download the project, you can either:
 
 ##### Run on your local machine:
 
-A simple HTTP server can serve the files. We are going to use python for this. Before we proceed, check which python's version installed in your machine by running: `python -v`. If there's no version installed, so go ahead and download [python](https://www.python.org/downloads/).
+A simple HTTP server can serve the files. We are going to use python for this. Before we proceed, check which python's version installed in your machine by running: `python --version`. If there's no version installed, so go ahead and download [python](https://www.python.org/downloads/).
 
 1. From inside the new directory, launch a local client server using Python from your terminal:  
     Python 2: python -m SimpleHTTPServer 8000  
