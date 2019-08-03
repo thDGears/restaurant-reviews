@@ -22,11 +22,7 @@ Do the same thing inside "restaurant_info.js".
 
 ## How to run
 
-After you clone/download the project, you can either:
-1. Open the live version [here]().
-2. Or run it on your local machine following thses instructions.
-
-##### Run on your local machine:
+After you clone/download the project, you can run it on your local machine.
 
 A simple HTTP server can serve the files. We are going to use python for this. Before we proceed, check which python's version installed in your machine by running: `python --version`. If there's no version installed, so go ahead and download [python](https://www.python.org/downloads/).
 
