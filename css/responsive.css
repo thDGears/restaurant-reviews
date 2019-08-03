@@ -1,0 +1,56 @@
+/* CSS Doc: Responsive*/
+
+@media screen and (min-width: 620px) {
+    .filter-options h2 {
+        display: block;
+    }
+    
+    .filter-options select {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 671px) {
+    #breadcrumb {
+        width: 50%;
+    }
+    
+    .inside #maincontent {
+        display: block;
+    }
+    
+    .inside #map-container {
+        height: 87%;
+        position: fixed;
+        top: 80px;
+        width: 40%;
+    }
+    
+    #breadcrumb,
+    #restaurant-container,
+    #reviews-container,
+    .inside #footer {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #restaurants-list li {
+        max-width: 305px;
+    }
+    
+    #breadcrumb,
+    #restaurant-container,
+    #reviews-container,
+    .inside #map-container,
+    .inside #footer {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 930px) {
+    #restaurants-list li {
+        max-width: 270px;
+    }
+}
